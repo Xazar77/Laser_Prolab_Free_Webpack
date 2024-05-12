@@ -1,0 +1,74 @@
+@import './libs//normalize.scss';
+@import './fonts/fonts.scss';
+@import './mixins/mixin.scss';
+@import './variable/variable.scss';
+
+
+*, *::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;   
+    font-weight: 300;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+body{
+    position: relative;
+    background: rgb(251, 249, 251);
+    overflow-x: hidden;
+}
+
+
+
+
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.btn{
+    width: 230px;
+    border-radius: 50px;
+    padding: 13px 0;
+    background: linear-gradient(90.00deg, rgba(56, 112, 255, 0.5) 2.8%,rgb(248, 169, 177) 100%);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+@import './block/header';
+@import './block/footer';
+@import './block/laser';
+@import './block/blockTitle';
+@import './block/form';
+@import './block/adress';
+@import './block/services';
+@import './block/place';
+@import './block/modalHeader';
+
+
+@media (max-width:1440px) {
+    .container {
+        width: 90%;
+    }
+}

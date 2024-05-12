@@ -1,0 +1,15 @@
+<svg width="33.000000" height="33.000000" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip101_2051">
+			<rect id="Yandex_Maps_icon 1" width="33.000000" height="33.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Yandex_Maps_icon 1" width="33.000000" height="33.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip101_2051)">
+		<path id="Vector" d="M16.5 2.06C9.66 2.06 4.12 7.6 4.12 14.43C4.12 17.85 5.5 20.94 7.74 23.18C9.98 25.42 15.26 28.66 15.57 32.07C15.61 32.58 15.98 33 16.5 33C17.01 33 17.38 32.58 17.42 32.07C17.73 28.66 23.01 25.42 25.25 23.18C27.49 20.94 28.87 17.85 28.87 14.43C28.87 7.6 23.33 2.06 16.5 2.06Z" fill="#FF4433" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M16.5 18.76C18.89 18.76 20.83 16.82 20.83 14.43C20.83 12.04 18.89 10.1 16.5 10.1C14.1 10.1 12.16 12.04 12.16 14.43C12.16 16.82 14.1 18.76 16.5 18.76Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

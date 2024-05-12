@@ -1,0 +1,160 @@
+.services{
+    &_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    &__nav{
+        width: 100%;
+        overflow: hidden;
+        &__btn{
+            display: none;
+        }
+        &__menu{
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &_item{
+                text-align: center;
+                color: black;
+                text-transform: uppercase;
+            }
+            &_link{
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 24px;
+                &:hover{
+                    // color: rgb(201, 12, 12);
+                    // animation-duration: 1s;
+                    // animation-name: color_text;
+                    // animation-iteration-count: infinite;
+                    // animation-direction: alternate;
+                   color:  rgb(231, 135, 181) ;
+                }
+
+            }
+        }
+
+    }
+}
+// @keyframes color_text {
+//     0%{
+//         color: rgb(255, 0, 0);
+//     }
+
+//     50%{
+//         color: rgb(8, 20, 255);
+//     }
+   
+//     100%{
+//         color: rgb(255, 0, 0);
+//     }
+
+// }
+@media (max-width: 1440px) {
+    .services{
+        &__nav{
+            &__menu{
+                &_link{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1690px) {
+    .services{
+        &__nav{
+            &__menu{
+
+                &_link{
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .services{
+        &__nav{
+            &__menu{
+                &_link{
+                    font-size: 13px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 900px) {
+    .services{
+        &_wrap{
+            flex-wrap: nowrap;
+        }
+        &__nav{
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            overflow: hidden;
+            &__btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                &:hover{
+                    background-color: rgba(0,0,0, .2);
+                }
+                &_prev{
+                    width: 100%;
+                    transform: rotate(90deg);
+                }
+                &_next{
+                    width: 100%;
+                    transform: rotate(-90deg);
+                }
+                &_prev,
+                &_next{
+                    width: 15px;
+                    height: 10px;
+                }
+            }
+            &__menu{
+                flex-wrap: nowrap;
+                &_item{
+                    width: 185px;
+                }
+                &_link{
+                    display: block;
+                    width: inherit;
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .services{
+        &__nav{
+            width: 200px;
+            &__menu{
+                &_item{
+                    width: 200px !important;
+                }
+
+
+            }
+
+
+        }
+    }
+
+}
