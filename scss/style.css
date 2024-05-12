@@ -757,15 +757,19 @@ a {
   width: 100%;
 }
 .footer__location__adress {
-  -moz-column-count: 2;
-       column-count: 2;
-  -moz-column-gap: 100px;
-       column-gap: 100px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .footer__location__adress_item {
   display: flex;
   flex-direction: column;
+  width: 270px;
   margin-bottom: 35px;
+  margin-right: 50px;
 }
 .footer__location__adress_item :last-child {
   margin-bottom: 0;
