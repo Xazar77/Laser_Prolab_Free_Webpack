@@ -54,12 +54,14 @@ const openHeaderModal = () => {
         choiseOpacity(1)
         menuBtn.classList.add('header__burger_active')
         modalMenu.classList.add('modal__header_active') 
+        document.body.style.overflow = 'hidden'
 
     }
 
     const closeModel = () => {
         menuBtn.classList.remove('header__burger_active')
         modalMenu.classList.remove('modal__header_active') 
+        document.body.style.overflow = ''
         choiseOpacity(-1)
     }
   

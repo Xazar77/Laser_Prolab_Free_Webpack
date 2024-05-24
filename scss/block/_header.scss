@@ -126,7 +126,10 @@
         }
         &__record{
             background: linear-gradient(90.00deg, rgb(231, 135, 181) 2.8%,rgb(248, 169, 177) 100%);
-           
+           &:hover{
+            background: rgb(191 56 121);
+            color: #fff;
+           }
         }
         &__location{
             margin-right: 25px;

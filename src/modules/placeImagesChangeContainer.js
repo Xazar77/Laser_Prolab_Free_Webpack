@@ -25,23 +25,7 @@ const placeImagesChangeContainer = () => {
 
     }
     if(document.getElementById('place')) {
-        const hoverBgBtns = (selector, color1, color2) => {
-    
-            const btns = document.querySelectorAll(selector)
-        
-            
-            btns.forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    
-                    e.preventDefault();
-                    btn.style.background= color1
-                    setTimeout(() => {
-                        btn.style.background= color2
-                    },200)
-                })
-            })
-        }
-        hoverBgBtns('.place__content__btn','rgb(230, 160, 4)', 'linear-gradient(90.00deg, rgb(255, 211, 0),rgb(236, 167, 4) 100%)')
+
         
         const hoverBtnsSvg = ({btnSelector, iconSelector, btnColorBefore, btnColorAfter, iconColorBefore, iconColorAfter}) => {
 
@@ -79,25 +63,7 @@ const placeImagesChangeContainer = () => {
             iconColorBefore: `fill: #ffffff`,
             iconColorAfter: `fill: #000000`
         })
-        
-        hoverBtnsSvg({
-            btnSelector: '.place__content__contacts_wattsap',
-            iconSelector: '.social-icon-wattsap',
-            btnColorBefore: '#099A29',
-            btnColorAfter: 'transparent',
-            iconColorBefore: `fill: #ffffff`,
-            iconColorAfter: `fill: #099A29`
-        })
-        
-        hoverBtnsSvg({
-            btnSelector: '.place__content__contacts_telegram',
-            iconSelector: '.social-icon-telegram',
-            btnColorBefore: "#139BD0",
-            btnColorAfter: 'transparent',
-            iconColorBefore: `fill: #73787a`,
-            iconColorAfter: 'fill:#139BD0'
-        })
-    
+ 
     }
     
 

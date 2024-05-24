@@ -26,11 +26,7 @@
                 font-weight: 500;
                 line-height: 24px;
                 &:hover{
-                    // color: rgb(201, 12, 12);
-                    // animation-duration: 1s;
-                    // animation-name: color_text;
-                    // animation-iteration-count: infinite;
-                    // animation-direction: alternate;
+
                    color:  rgb(231, 135, 181) ;
                 }
 
@@ -39,20 +35,7 @@
 
     }
 }
-// @keyframes color_text {
-//     0%{
-//         color: rgb(255, 0, 0);
-//     }
 
-//     50%{
-//         color: rgb(8, 20, 255);
-//     }
-   
-//     100%{
-//         color: rgb(255, 0, 0);
-//     }
-
-// }
 @media (max-width: 1440px) {
     .services{
         &__nav{
